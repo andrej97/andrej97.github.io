@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="./lib/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="./css/html5-reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./lib/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="./lib/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="./lib/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="./lib/jquery.jcarousel.min.js"></script>
+    <link rel="stylesheet" href="./css/css.css">
+<!--Lightbox script -->    
+	<link href="./lib/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+	
+	<title>sk-celtnieks.lv</title>
+	
+  </head>
+  <body>
+  
+  <!-- меню для экранов пк и ноутбуков -->
+  
+    <nav class="navbar navbar-default navbar-fixed-top visible-md-block  visible-lg-block">
+      <div class="container ">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sk-Celtnieks</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Главная</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Мебель<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Галереи</li>
+                <li><a href="#">Мягкая мебель</a></li>
+                <li><a href="#">Корпусная мебель</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ткани<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Галереи</li>
+                <li><a href="#">Dekoma</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Партнеры</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" id="2">
+            <li>
+              <a href="#" style="padding-bottom: 5px;">
+                <div id="lv" ></div>
+              </a>
+            </li>
+            <li>
+              <a href="#" style="padding-bottom: 5px;">
+                <div id="ru" ></div>
+              </a>
+            </li>
+            <li>
+              <a href="#" style="padding-bottom: 5px;">
+                <div id="uk" ></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<!-- меню для экранов маленьких устройств -->
+	
+    <nav class="navbar navbar-default navbar-fixed-top visible-xs-block">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".sm_menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sk-Celtnieks</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse sm_menu">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Главная</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Мебель<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Галереи</li>
+                <li><a href="#">Мягкая мебель</a></li>
+                <li><a href="#">Корпусная мебель</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ткани<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Галереи</li>
+                <li><a href="#">Dekoma</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Партнеры</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Языки<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">LV</a></li>
+                <li><a href="#">RU</a></li>
+                <li><a href="#">UK</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+	<!-- блок контента -->
+	
+	<div class="container-fluid">
+	
+	
+      <div class="row">
+        <div class="col-md-1"></div>
+		
+		<!-- меню сбоку -->
+		
+        <div class="col-md-2 ">
+          
+		  <a class="example-image-link" href="Images/CM-Logo.jpg" data-lightbox="example-2" data-title="Optional caption.">
+		  <img class="example-image" src="Images/CM-Logo.jpg" alt="image-1">
+		  </a>
+		   
+          <br>
+          <br>
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  Галереи
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  Контакты
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Адрес:
+                  Лугажу 2A, Рига, Латвия
+                  Тел.+371 67551135
+                  М.т.+371 29713399
+                  E-mail:
+                  info@sk-celtnieks.lv
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  Поиск
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        
+		<!-- контент по центру -->
+		
+		<div class="col-md-6 well"><p>Мы работаем на рынке производства мебели с 1991 года.</p>
+          <p>В настоящее время компания "Celtnieks mēbeles" является лидером в области производства мебели для ресторанов, баров, кафе. Собственное дизайн-бюро позволяет компании осуществлять комплекс услуг по проектированию и оснащению объектов общественного питания: разработку сти-
+          листической концепции ресторана, бара или кафе, дизайн интерьера и т.д. 
+          Дизайн-студия специализируется на проектировании и дизайне интерье-
+          ров ресторанов, кафе, баров, а также других общественных помещений.
+		   <img class="" src="Images/CM-Logo.jpg" width="100px" height="100px" align="right" alt="image-1">
+          Студия разрабатывает дизайн-проекты объектов с учетом их специфики,
+          соблюдая эргономические факторы, технические нормы и правила, кон-
+          структивные особенности каждого конкретного объекта.</p>
+		
+          <p>C 2007 года компания "Celtnieks mēbeles" тесно сотрудничает с компани-
+          ей Dekoma, поставщиком лучших мебельных и декоративных тканей от
+          европейских производителей. Тем самым мы обеспечиваем нашим кли-
+          ентам самый широкий выбор обивочных материалов для любых типов интерьера в самые крат-
+          чайшие сроки.</p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+	
+	<script src="./lib/lightbox2-master/dist/js/lightbox.js"></script>
+	
+  </body>
+</html>

@@ -1,0 +1,82 @@
+/* language */
+#lv {
+	background-image:url(../Images/Flags/lv.png);
+	height: 32px;
+	width: 32px;
+}
+
+#ru {
+	background-image:url(../Images/Flags/ru.png);
+	height: 32px;
+	width: 32px;
+}
+
+#uk {
+	background-image:url(../Images/Flags/uk.png);
+	height: 32px;
+	width: 32px;
+}
+
+
+a, a:focus, a:hover {color: black;}
+
+.navbar-header {background-color: white;}
+
+
+body {
+	
+	background-color:  #DCDCDC;
+	
+	
+}
+
+
+.navbar-fixed-top {position:static;}
+
+nav ul {
+	font-family: Tahoma;
+	font-size: 12px;
+
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	color:#000000;
+}
+
+h1 {
+	font-family: Tahoma;
+	font-size: 14px;
+	color:#000000;
+
+}
+
+.hide{
+	display:none;
+}
+
+
+main, nav{
+	background-color: orange;
+	/*max-width: 800px;
+	margin: 0px auto;*/
+	padding:20px;
+}
+
+
+aside{
+	background-color: green;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer{
+	padding:10px;
+}
+
+.navbar{
+	margin-bottom: 20px;
+	padding:0px;
+}
+
