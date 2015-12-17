@@ -17,10 +17,11 @@
 	width: 32px;
 }
 
-
 a, a:focus, a:hover {color: black;}
 
-.navbar-header {background-color: white;}
+/*.navbar-header {background-color: white;} */
+
+h3 {text-align:center;}
 
 
 body {
@@ -45,12 +46,7 @@ nav ul li {
 	color:#000000;
 }
 
-h1 {
-	font-family: Tahoma;
-	font-size: 14px;
-	color:#000000;
 
-}
 
 .hide{
 	display:none;
@@ -58,7 +54,7 @@ h1 {
 
 
 main, nav{
-	background-color: orange;
+	
 	/*max-width: 800px;
 	margin: 0px auto;*/
 	padding:20px;
