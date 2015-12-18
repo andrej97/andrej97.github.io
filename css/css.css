@@ -1,3 +1,59 @@
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+	background-image:none;
+	background-color:	red;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-image:none;	
+	background-color:		#F4A460;
+}
+.navbar-brand, .navbar-default{
+	
+		background-image:none;	
+	background-color:#FFCC66;
+	
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	
+	color: black;
+	background-color: #FFCC66;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	
+	
+	background-color: #F4A460;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	
+background-color: #F4A460;	
+	
+}
+
+/* цвет ссылок в navbar(меню) */
+
+.navbar-default .navbar-nav>li>a { color: black;}
+
+
+.well {
+	
+	    background-image: none;
+    background-color: #C0C0C0;
+	border-color: #C0C0C0;
+}
+
+body {
+	
+	background-color: #993333;
+	
+	
+}
+
+
+
 /* language */
 #lv {
 	background-image:url(../Images/Flags/lv.png);
@@ -24,12 +80,7 @@ a, a:focus, a:hover {color: black;}
 h3 {text-align:center;}
 
 
-body {
-	
-	background-color:  #DCDCDC;
-	
-	
-}
+
 
 
 .navbar-fixed-top {position:static;}
