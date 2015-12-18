@@ -9,10 +9,11 @@
 	background-image:none;	
 	background-color:		#F4A460;
 }
-.navbar-brand, .navbar-default{
+.navbar-brand, .navbar-default, .dropdown-menu{
 	
 		background-image:none;	
 	background-color:#FFCC66;
+	border-color: #FFCC66;
 	
 }
 
@@ -32,6 +33,13 @@
 background-color: #F4A460;	
 	
 }
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-image: none;
+	background-color: #F4A460;
+}
+
+
 
 /* цвет ссылок в navbar(меню) */
 
